@@ -1,3 +1,6 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +9,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -28,12 +32,13 @@ p {
 .container {
   display: flex;
   justify-content: center;
+  width: 100%;
   height: 100vh;
 }
 
 .wrapper {
-  width: 32rem;
-  height: 16rem;
+  /* width: 32rem; */
+  height: 4rem;
   background: #eee;
   /*   overflow-y: auto; */
   overflow-x: auto;
@@ -73,13 +78,14 @@ p {
 .box {
   display: inline-block;
   /* margin-right: -2.3px; */
-  width: 16rem;
-  height: 16rem;
+  width: 25vw;
+  height: 4rem;
 }
 
 span {
   width: 100%;
   height: 100%;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
